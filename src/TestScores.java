@@ -44,7 +44,7 @@ public class TestScores {
 
         //This loop should assign scores the the scores[] array
         for (int i = 0; i < scores.length; i++) {
-            System.out.print("Enter a score: ");
+            System.out.print("Enter a score (" + (i + 1) +"/10): ");
             scores[i] = sc.nextInt();
         }
 
